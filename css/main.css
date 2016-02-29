@@ -1,0 +1,28 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.content {
+  padding: 1em;
+  display: inline-block;
+  max-width: 47em;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
